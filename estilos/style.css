@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --fonte-family: "Inter", sans-serif;
+    --cor-principal:  #8E2424;
+    --cor-paragrafo:  #667085;
+}
+
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 26px 0px;
+    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+.logo h2{
+    font-family: var(--fonte-family);
+    font-size: 18px;
+    color:#3A404E;
+
+}
+.menu ul{
+    display: flex;
+    margin-left: 119px;
+    gap: 22px;
+}
+.menu ul li a {
+    font-family: var(--fonte-family);
+    color: var(--cor-paragrafo);
+    font-size: 1rem;
+    padding: 10px;
+    
+    text-align: center;
+}
+
+.btn__entrar{
+    padding: 10px 18px;
+    font-family: var(--fonte-family);
+    font-size: 1rem;
+    color: var(--cor-paragrafo);
+    margin-right: 12px;
+}
+.btn__cadastrar{
+    padding: 10px 18px;
+    font-family: var(--fonte-family);
+    font-size: 1rem;
+    background-color: var(--cor-principal);
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.apresentacao{
+    width: 80%;
+    margin: 96px auto;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+.apresentacao__sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.apresentacao__subtitulo{
+    color: var(--cor-principal);
+    font-family: var(--fonte-family);
+    margin-bottom: 24px;
+}
+.apresentacao__titulo{
+    font-size: 3rem;
+    color: #101828;
+    font-family: var(--fonte-family);
+    font-weight: 600;
+    margin-bottom: 24px;
+
+}
+.apresentacao__container__estatistica{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.apresentacao__paragrafo{
+    font-family: var(--fonte-family);
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    max-width: 791px;
+    text-align: center;
+    color: var(--cor-paragrafo);
+}
+.apresentacao__container__estatistica{
+    margin-top: 96px;
+}
+.apresentacao__estatistica__titulo{
+    font-family: var(--fonte-family);
+    font-weight: 600;
+    font-size: 2.75rem;
+    color: var(--cor-principal);
+    margin-bottom: 12px;
+}
+.apresentacao__estatistica__subtitulo{
+    color: #101828;
+    font-family: var(--fonte-family);
+    font-size: 1.12rem;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.apresentacao__estatistica__paragrafo{
+    font-family: var(--fonte-family);
+    color: #667085;
+    line-height: 24px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.apresetacao__estatistica{
+    max-width: 280px;
+    margin: 0 auto;
+}
+.apresentacao__vagas{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.img__vagas{
+    width: 100%;
+    margin-top: 64px;
+}
+.apresentacao__vagas__tag{
+    padding: 4px 12px;
+    background-color: #8E24240D;
+    font-family: var(--fonte-family);
+    font-size: 1rem;
+    border-radius: 16px;
+    color: #8E2424;
+    text-align: center;
+    
+    
+}
+.apresentacao__vagas__titulo{
+font-family: var(--fonte-family);
+font-weight: 600;
+font-size: 2rem;
+margin-top: 16px;
+margin-bottom: 20px;
+color:  #101828;
+}
+.apresentacao__vagas__paragrafo{
+    color:#667085;
+    font-weight: 400;
+    font-family: var(--fonte-family);
+    font-size: 1.25rem;
+
+}
+.apresentacao__vagas{
+    width: 80%;
+    
+}
+.vagas{
+    width: 60%;
+    margin: 64px auto 96px auto;
+}
+.titulo__design{
+    font-family: var(--fonte-family);
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #101828;
+    margin-bottom: 32px;
+
+}
+
+.vaga__titulo{
+    font-family: var(--fonte-family);
+    font-weight: 500;
+    font-size: 1.12rem;
+    color: #101828;
+    margin-bottom: 32px;
+
+}
+.vaga__container{
+    padding: 24px;
+    border: 1px solid #EAECF0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.vaga__container__descricao{
+    display: flex;
+    gap: 24px;
+    
+}
+.vaga__descricao{
+    font-family: var(--fonte-family);
+    font-weight: 500;
+    font-size: 1rem;
+    color: #667085;
+
+}
+.vagas__desenvolvimento{
+    margin-top: 64px;
+
+}
+.card__container{
+    width: 80%;
+    background-color: #C3191908;
+    margin: 0 auto;
+    padding: 64px;
+    margin-bottom: 96px;
+    text-align: center;
+}
+.card__subtitulo{
+    font-family: var(--fonte-family);
+    color: #8E2424;    
+    font-weight: 600;
+    font-size: 0.8rem;
+    
+
+}
+.card__titulo{
+    font-family: var(--fonte-family);
+    color: #101828;
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.card__nome{
+    font-family: var(--fonte-family);
+    font-size: 1rem;
+    font-weight: 500;
+    color: #101828;
+    margin-bottom: 4px;
+}
+.card__cargo{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #667085;
+    font-family: var(--fonte-family);
+
+}
+.card__cargo img{
+    margin-top: 16px;
+
+}
+
+.card__usuario{
+    margin-top: 32px;
+
+}
+.copy__cadastrar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F9FAFB;
+    text-align: center;
+}
+.cadastrar{
+    padding: 96px 304px;
+}
+.cadastrar__titulo{
+font-weight: 600;
+font-family: var(--fonte-family);
+font-size: 2.25rem;
+color: #101828;
+margin-bottom: 20px;
+}
+.cadastrar__paragrafo{
+    color:  #667085;
+    font-family: var(--fonte-family);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.input__cadastrar{
+    width: 60%;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D0D5DD;
+    background-color: white;
+    
+
+}
+.input{
+    width: 100%;
+    height: 100%;
+    font-family: var(--fonte-family);
+    color:  #667085;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 16px;
+}
+.form__cadastrar{
+    
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.enviar{
+    padding: 12px 20px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--cor-principal);
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: var(--fonte-family);
+    font-size: 1rem;
+    font-weight:  500;
+
+}
+.copy__optimus{
+    font-size: 1rem;
+    color: #98A2B3;
+    font-family: var(--fonte-family);
+    font-weight: 400; 
+    margin-top: 32px;
+}
